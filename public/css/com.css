@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 0.5%;
+     left: 3%;
+}
+
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-signup {
+    position: absolute;
+    top: 2.5%;
+    left: 80%;
+}
+
+.btn-signin {
+    position: absolute;
+    top: 2.5%;
+    left: 92%;
+}
+
+button {
+    color: black;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-box {
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.search-txt {
+    width: 400px;
+    height: 24px;
+}
+
+.user_profile{
+    position: absolute;
+    top: 30px;
+    right: 360px;
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
+
+#profile_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline;
+}
+
+#user_name{
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+
+.finder {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 721px;
+    
+}
+
+.menu {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 20%;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.btn-ask {
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 25%;
+}
+
+.buttonn {
+    color: white;
+    padding: 10px 25px;
+    background: transparent;
+    /* border: 1px solid green; */
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    top: 80%;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    position: absolute;
+    top: 82%;
+    left: 0.1%;
+    list-style: none;
+    display: flex;
+}
+
+.socials li {
+    margin: 0  10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    position: relative;
+    top: 86%;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
